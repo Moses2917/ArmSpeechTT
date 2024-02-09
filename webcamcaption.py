@@ -16,7 +16,7 @@ def record():
         pil_image = Image.fromarray(image)
         
         # Draw non-ascii text onto image
-        font = ImageFont.truetype("C:\Windows\Fonts\\arial.ttf", 50) #add acycling text str so the new is on the bottom and old on top, use stack/queue
+        font = ImageFont.truetype("C:\Windows\Fonts\\arial.ttf", 50) #add a cycling text str so the new is on the bottom and old on top, use stack/queue
         draw = ImageDraw.Draw(pil_image)
         draw.text((30, 30), text, font=font,stroke_width=3,stroke_fill=(0,0,0))
         image = np.asarray(pil_image)
