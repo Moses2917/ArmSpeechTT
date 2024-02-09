@@ -46,7 +46,13 @@ The model was trained on Google Colab with the following hyperparameters:
 
 To run the webcam demo, follow these steps:
 1. Ensure you have Python installed on your system.
-2. Clone this repository to your local machine.
+2. **Clone the Repository**: 
+   Clone the ArmSpeechTT repository to your local machine using the following command and then cd into ArmSpeechTT:
+
+   ```bash
+   git clone https://github.com/Moses2917/ArmSpeechTT.git
+   cd ArmSpeechTT
+   
 3. Install the required dependencies listed in `reqs.txt` using the command:
    ```
    pip install -r reqs.txt
@@ -55,6 +61,6 @@ To run the webcam demo, follow these steps:
    ```
    python webcamcaption.py
    ```
-5. The webcam demo will start, capturing audio input and transcribing it into text in real-time and displaying the captions on the camera.
+5. The script will automatically download the model and then the webcam demo will start, capturing audio input and transcribing it into text in real-time and displaying the captions on the camera.
 
 Feel free to explore and experiment with the webcam demo to experience the capabilities of the ArmSpeechTT model firsthand!
