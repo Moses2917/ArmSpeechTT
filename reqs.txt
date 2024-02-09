@@ -1,0 +1,6 @@
+opencv-python
+SpeechRecognition
+Pillow
+numpy
+transformers
+torch
